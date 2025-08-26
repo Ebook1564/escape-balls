@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e705d46461d38fb489b170fd0f267618
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stint Ultra Condensed
+  fontNames:
+  - Stint Ultra Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9bf635cf077ecf4448b789d31ad1594d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

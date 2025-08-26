@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: e31fe37f376e50141afda6608933dda3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3846002840651257211
+    second: steampunk-gears-gf945d0324_1920_0
+  - first:
+      213: -6007634796484837065
+    second: steampunk-gears-gf945d0324_1920_1
+  - first:
+      213: 1810458870856716412
+    second: steampunk-gears-gf945d0324_1920_2
+  - first:
+      213: 3204413446162258193
+    second: steampunk-gears-gf945d0324_1920_3
+  - first:
+      213: -5772528774277101240
+    second: steampunk-gears-gf945d0324_1920_4
+  - first:
+      213: 4558726476766601268
+    second: steampunk-gears-gf945d0324_1920_5
+  - first:
+      213: 2331095143401103766
+    second: steampunk-gears-gf945d0324_1920_6
+  - first:
+      213: 1655664498301730805
+    second: steampunk-gears-gf945d0324_1920_7
+  - first:
+      213: 7965610152557279005
+    second: steampunk-gears-gf945d0324_1920_8
+  - first:
+      213: 3678719105929338670
+    second: steampunk-gears-gf945d0324_1920_9
+  - first:
+      213: 3640163857266303410
+    second: steampunk-gears-gf945d0324_1920_10
+  - first:
+      213: -9068156620936251581
+    second: steampunk-gears-gf945d0324_1920_11
+  - first:
+      213: 2917995158625823233
+    second: steampunk-gears-gf945d0324_1920_12
+  - first:
+      213: -2917182348535059346
+    second: steampunk-gears-gf945d0324_1920_13
+  - first:
+      213: 4166681419303131161
+    second: steampunk-gears-gf945d0324_1920_14
+  - first:
+      213: -464767437828542928
+    second: steampunk-gears-gf945d0324_1920_15
+  - first:
+      213: 9193047854523831507
+    second: steampunk-gears-gf945d0324_1920_16
+  - first:
+      213: -276625585160231533
+    second: steampunk-gears-gf945d0324_1920_17
+  - first:
+      213: 6011979321368433248
+    second: steampunk-gears-gf945d0324_1920_18
+  - first:
+      213: -6302390178835166305
+    second: steampunk-gears-gf945d0324_1920_19
+  - first:
+      213: 5456479018789230821
+    second: steampunk-gears-gf945d0324_1920_20
+  - first:
+      213: -1231371678982271997
+    second: steampunk-gears-gf945d0324_1920_21
+  - first:
+      213: 7293043743583521945
+    second: steampunk-gears-gf945d0324_1920_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1569
+        width: 311
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b755922e43fbf5530800000000000000
+      internalID: 3846002840651257211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1810
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731ce3f7bf790aca0800000000000000
+      internalID: -6007634796484837065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1776
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c709ed530ca002910800000000000000
+      internalID: 1810458870856716412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_3
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1607
+        width: 318
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1199cf33d0d587c20800000000000000
+      internalID: 3204413446162258193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_4
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1577
+        width: 303
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490e79f9abd3efa0800000000000000
+      internalID: -5772528774277101240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_5
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1566
+        width: 326
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43067d3d399d34f30800000000000000
+      internalID: 4558726476766601268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_6
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 1599
+        width: 52
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691af08aea6b95020800000000000000
+      internalID: 2331095143401103766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1652
+        width: 142
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffff70d61a1af610800000000000000
+      internalID: 1655664498301730805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_8
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1693
+        width: 98
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17fb6aea388b8e60800000000000000
+      internalID: 7965610152557279005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_9
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1660
+        width: 116
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f5c51498f6d0330800000000000000
+      internalID: 3678719105929338670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1569
+        width: 66
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1e294edb5748230800000000000000
+      internalID: 3640163857266303410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1191
+        width: 344
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347fc71399f672280800000000000000
+      internalID: -9068156620936251581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1104
+        width: 431
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aa336f22dce7820800000000000000
+      internalID: 2917995158625823233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_13
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1146
+        width: 390
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c27822c161487d0800000000000000
+      internalID: -2917182348535059346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_14
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1018
+        width: 520
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91898c1cca603d930800000000000000
+      internalID: 4166681419303131161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 666
+        width: 465
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eaf0d4a70dc89f0800000000000000
+      internalID: -464767437828542928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_16
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 853
+        width: 229
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d45f0c1154449f70800000000000000
+      internalID: 9193047854523831507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_17
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 403
+        width: 705
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956db4fe7a392cf0800000000000000
+      internalID: -276625585160231533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_18
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 594
+        width: 317
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062d8270757de6350800000000000000
+      internalID: 6011979321368433248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 36
+        width: 438
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b8e9a16896988a0800000000000000
+      internalID: -6302390178835166305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_20
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 13
+        width: 510
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8dd4702ce49bb40800000000000000
+      internalID: 5456479018789230821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_21
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 0
+        width: 394
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c09c76bf949eee0800000000000000
+      internalID: -1231371678982271997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steampunk-gears-gf945d0324_1920_22
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 0
+        width: 473
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c4ea305a8163560800000000000000
+      internalID: 7293043743583521945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      steampunk-gears-gf945d0324_1920_0: 3846002840651257211
+      steampunk-gears-gf945d0324_1920_1: -6007634796484837065
+      steampunk-gears-gf945d0324_1920_10: 3640163857266303410
+      steampunk-gears-gf945d0324_1920_11: -9068156620936251581
+      steampunk-gears-gf945d0324_1920_12: 2917995158625823233
+      steampunk-gears-gf945d0324_1920_13: -2917182348535059346
+      steampunk-gears-gf945d0324_1920_14: 4166681419303131161
+      steampunk-gears-gf945d0324_1920_15: -464767437828542928
+      steampunk-gears-gf945d0324_1920_16: 9193047854523831507
+      steampunk-gears-gf945d0324_1920_17: -276625585160231533
+      steampunk-gears-gf945d0324_1920_18: 6011979321368433248
+      steampunk-gears-gf945d0324_1920_19: -6302390178835166305
+      steampunk-gears-gf945d0324_1920_2: 1810458870856716412
+      steampunk-gears-gf945d0324_1920_20: 5456479018789230821
+      steampunk-gears-gf945d0324_1920_21: -1231371678982271997
+      steampunk-gears-gf945d0324_1920_22: 7293043743583521945
+      steampunk-gears-gf945d0324_1920_3: 3204413446162258193
+      steampunk-gears-gf945d0324_1920_4: -5772528774277101240
+      steampunk-gears-gf945d0324_1920_5: 4558726476766601268
+      steampunk-gears-gf945d0324_1920_6: 2331095143401103766
+      steampunk-gears-gf945d0324_1920_7: 1655664498301730805
+      steampunk-gears-gf945d0324_1920_8: 7965610152557279005
+      steampunk-gears-gf945d0324_1920_9: 3678719105929338670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
