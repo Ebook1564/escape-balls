@@ -18,8 +18,8 @@ public class playerIN : MonoBehaviour
     {
         // Clamp position to stay within bounds
         transform.position = new Vector3(
-            Mathf.Clamp(transform.position.x, -2.5f, 2.5f),
-            Mathf.Clamp(transform.position.y, -5f, 5f),
+            Mathf.Clamp(transform.position.x, -5f, 5f),
+            Mathf.Clamp(transform.position.y, -5f, 7.5f),
             transform.position.z
         );
 
