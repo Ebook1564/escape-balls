@@ -1,67 +1,62 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class playerIN : MonoBehaviour
+public class PlayerIN : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public float moveSpeed = 5f;
+
+    public float minX = -20f, maxX = 20f;
+    public float minY = -5f, maxY = 7.5f;
 
     private float deltaX, deltaY;
-    public float moveSpeed = 5f; // Speed for keyboard movement
+    private Vector2 targetPos;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;        // top-down game, no gravity
+        rb.freezeRotation = true;    // lock rotation
+        targetPos = rb.position;
     }
 
     private void Update()
     {
-        // Clamp position to stay within bounds
-        transform.position = new Vector3(
-            Mathf.Clamp(transform.position.x, -5f, 5f),
-            Mathf.Clamp(transform.position.y, -5f, 7.5f),
-            transform.position.z
-        );
-
-        // Handle touch input
+        // --- Handle touch input ---
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             Vector2 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+
             switch (touch.phase)
             {
                 case TouchPhase.Began:
                     deltaX = touchPos.x - transform.position.x;
                     deltaY = touchPos.y - transform.position.y;
                     break;
+
                 case TouchPhase.Moved:
-                    rb.MovePosition(new Vector2(touchPos.x - deltaX, touchPos.y - deltaY) * 1.2f);
-                    break;
-                case TouchPhase.Ended:
-                    rb.linearVelocity = Vector2.zero;
+                    targetPos = new Vector2(touchPos.x - deltaX, touchPos.y - deltaY);
                     break;
             }
         }
 
-        // Handle keyboard input
+        // --- Handle keyboard input ---
         float horizontal = 0f;
 
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            horizontal = -1f;
-        }
-        else if (Input.GetKey(KeyCode.RightArrow))
-        {
-            horizontal = 1f;
-        }
+        if (Input.GetKey(KeyCode.LeftArrow)) horizontal = -1f;
+        else if (Input.GetKey(KeyCode.RightArrow)) horizontal = 1f;
 
         if (horizontal != 0)
-        {
-            rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
-        }
-        else
-        {
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
-        }
+            targetPos = rb.position + new Vector2(horizontal * moveSpeed * Time.deltaTime, 0f);
+    }
+
+    private void FixedUpdate()
+    {
+        // --- Clamp position here ---
+        targetPos.x = Mathf.Clamp(targetPos.x, minX, maxX);
+        targetPos.y = Mathf.Clamp(targetPos.y, minY, maxY);
+
+        // Move the Rigidbody
+        rb.MovePosition(targetPos);
     }
 }

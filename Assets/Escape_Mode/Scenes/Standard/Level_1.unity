@@ -2990,7 +2990,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.9622642, g: 0.92897826, b: 0.92897826, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3139,7 +3139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1837282436
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3157,7 +3157,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -3262,7 +3262,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874137310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 826f6cf81475e02468b7b89bfaee5909, type: 3}
   m_Name: 
@@ -3292,8 +3292,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acec00c33ef7ca54286e2974b6cb66de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1874137315}
+  rb: {fileID: 0}
   moveSpeed: 5
+  minX: -6
+  maxX: 6
+  minY: -5
+  maxY: 7.5
 --- !u!58 &1874137314
 CircleCollider2D:
   m_ObjectHideFlags: 0
