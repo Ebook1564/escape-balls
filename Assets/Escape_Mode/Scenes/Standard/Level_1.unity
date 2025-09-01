@@ -15249,7 +15249,6 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
-<<<<<<< Updated upstream
   m_GameObject: {fileID: 7920366162718151252}
   m_Enabled: 1
   serializedVersion: 3
@@ -15295,8 +15294,6 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
-=======
->>>>>>> Stashed changes
 --- !u!61 &8942255872389979456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15445,10 +15442,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1744765342}
-<<<<<<< Updated upstream
   - {fileID: 1744765342}
-=======
->>>>>>> Stashed changes
   - {fileID: 1995755048}
   - {fileID: 1641483580}
   - {fileID: 1360190783}
@@ -15458,8 +15452,4 @@ SceneRoots:
   - {fileID: 460796377}
   - {fileID: 6514009704226509786}
   - {fileID: 3454781955436219754}
-<<<<<<< Updated upstream
   - {fileID: 1466023130}
-=======
-  - {fileID: 1466023130}
->>>>>>> Stashed changes
