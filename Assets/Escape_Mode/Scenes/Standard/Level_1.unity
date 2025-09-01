@@ -499,6 +499,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &214499058
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,6 +674,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &246650653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1359,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &360284718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,6 +1605,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &436729277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1766,6 +1772,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &437256356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1853,6 +1860,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &460796376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2472,6 +2481,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &640752063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,6 +2972,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &660706374
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,6 +4229,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &992714207
 GameObject:
   m_ObjectHideFlags: 0
@@ -4499,6 +4512,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1002196658
 GameObject:
   m_ObjectHideFlags: 0
@@ -5083,6 +5098,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &1216414677
 GameObject:
   m_ObjectHideFlags: 0
@@ -5365,6 +5381,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1299810971
 GameObject:
   m_ObjectHideFlags: 0
@@ -5639,6 +5657,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &1367594815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5726,6 +5745,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1434300109
 GameObject:
   m_ObjectHideFlags: 0
@@ -6018,6 +6039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layers: []
+<<<<<<< Updated upstream
 --- !u!1 &1458415400
 GameObject:
   m_ObjectHideFlags: 0
@@ -6176,6 +6198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layers: []
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1474842963
 GameObject:
   m_ObjectHideFlags: 0
@@ -6537,6 +6561,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 --- !u!1 &1496065542
 GameObject:
   m_ObjectHideFlags: 0
@@ -6819,6 +6844,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1634723490
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,12 +7156,18 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_Father: {fileID: 0}
+=======
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803809325
 GameObject:
@@ -7338,7 +7371,10 @@ GameObject:
   - component: {fileID: 1874137319}
   - component: {fileID: 1874137320}
   - component: {fileID: 1874137321}
+<<<<<<< Updated upstream
   - component: {fileID: 1874137321}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
   m_TagString: cut
@@ -7385,6 +7421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   moveSpeed: 5
+<<<<<<< Updated upstream
   minX: -6
   maxX: 6
   minY: -5
@@ -7425,6 +7462,8 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 3
+=======
+>>>>>>> Stashed changes
 --- !u!50 &1874137315
 Rigidbody2D:
   serializedVersion: 5
@@ -7498,8 +7537,11 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: be30e555c1c78ca44bc7a023f13853c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: be30e555c1c78ca44bc7a023f13853c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+>>>>>>> Stashed changes
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7521,8 +7563,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 1
+<<<<<<< Updated upstream
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_ConstrainProportionsScale: 1
+=======
+>>>>>>> Stashed changes
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7742,6 +7787,7 @@ Transform:
   - {fileID: 640752064}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!58 &1874137321
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7811,6 +7857,8 @@ Transform:
   - {fileID: 640752064}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1926982541
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,6 +8200,7 @@ Transform:
   - {fileID: 360284719}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &2071248580
 GameObject:
   m_ObjectHideFlags: 0
@@ -8185,6 +8234,8 @@ Transform:
   - {fileID: 360284719}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!850595691 &2088559810
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -8248,8 +8299,11 @@ LightingSettings:
   m_RespectSceneVisibilityWhenBakingGI: 0
 --- !u!1 &2115200346
 GameObject:
+<<<<<<< Updated upstream
 --- !u!1 &2115200346
 GameObject:
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8266,6 +8320,7 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &2115200347
 Transform:
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115200347}
@@ -8278,6 +8333,8 @@ Transform:
   m_IsActive: 1
 --- !u!4 &2115200347
 Transform:
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8293,6 +8350,7 @@ Transform:
   - {fileID: 660152557}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 2115200346}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -8304,6 +8362,8 @@ Transform:
   - {fileID: 660152557}
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!114 &58562804939288621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8633,8 +8693,11 @@ SpriteRenderer:
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+>>>>>>> Stashed changes
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9701,7 +9764,10 @@ GameObject:
   - component: {fileID: 2984877753357424338}
   - component: {fileID: 4762791033009999783}
   - component: {fileID: 6859708415580507794}
+<<<<<<< Updated upstream
   - component: {fileID: 6859708415580507794}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Black 1 (4)
   m_TagString: boomb
@@ -9914,7 +9980,10 @@ GameObject:
   - component: {fileID: 4111541235432548957}
   - component: {fileID: 8187355613083078139}
   - component: {fileID: 8214621426014491712}
+<<<<<<< Updated upstream
   - component: {fileID: 8214621426014491712}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Black 1 (3)
   m_TagString: boomb
@@ -10382,9 +10451,12 @@ Transform:
   - {fileID: 2071248581}
   - {fileID: 1889865942}
   - {fileID: 2115200347}
+<<<<<<< Updated upstream
   - {fileID: 2071248581}
   - {fileID: 1889865942}
   - {fileID: 2115200347}
+=======
+>>>>>>> Stashed changes
   - {fileID: 8214621426014491711}
   - {fileID: 6111057606368812124}
   - {fileID: 5840468330927885785}
@@ -11788,8 +11860,11 @@ SpriteRenderer:
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+>>>>>>> Stashed changes
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12075,7 +12150,10 @@ GameObject:
   - component: {fileID: 8446751325517011749}
   - component: {fileID: 58562804939288621}
   - component: {fileID: 8446751325517011750}
+<<<<<<< Updated upstream
   - component: {fileID: 8446751325517011750}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Black 1 (5)
   m_TagString: boomb
@@ -12153,14 +12231,20 @@ Transform:
   m_GameObject: {fileID: 5784600110507166931}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+>>>>>>> Stashed changes
   m_LocalPosition: {x: 1, y: 25, z: 0}
   m_LocalScale: {x: 0.4, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!61 &5853040726129573896
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12325,14 +12409,20 @@ Transform:
   m_GameObject: {fileID: 2349085450904372193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+>>>>>>> Stashed changes
   m_LocalPosition: {x: -1, y: 20, z: 0}
   m_LocalScale: {x: 0.4, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3454781955436219754}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!61 &6133979104962303386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12497,7 +12587,10 @@ Transform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< Updated upstream
   m_Children: []
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6645119219921888687
@@ -12590,8 +12683,11 @@ SpriteRenderer:
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: fee14b1da6aae5341b4804a926f5ac77, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+>>>>>>> Stashed changes
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12758,6 +12854,7 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+<<<<<<< Updated upstream
 --- !u!60 &6859708415580507794
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -12915,6 +13012,8 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &6895020679797791763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13865,7 +13964,10 @@ GameObject:
   - component: {fileID: 8877135289422668333}
   - component: {fileID: 2670816651859019840}
   - component: {fileID: 8877135289422668334}
+<<<<<<< Updated upstream
   - component: {fileID: 8877135289422668334}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Black 1 (7)
   m_TagString: boomb
@@ -13958,7 +14060,10 @@ Transform:
   m_GameObject: {fileID: 2794629400784785733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+=======
+>>>>>>> Stashed changes
   m_LocalPosition: {x: 1, y: 15, z: 0}
   m_LocalScale: {x: 0.4, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14122,6 +14227,7 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+<<<<<<< Updated upstream
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &8214621426014491712
 PolygonCollider2D:
@@ -14280,6 +14386,8 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!212 &8273105883788625079
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14403,7 +14511,10 @@ GameObject:
   - component: {fileID: 4557747276330150733}
   - component: {fileID: 1012051252498893174}
   - component: {fileID: 8371626826336235142}
+<<<<<<< Updated upstream
   - component: {fileID: 8371626826336235142}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Black 1 (6)
   m_TagString: boomb
@@ -14462,6 +14573,7 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
+<<<<<<< Updated upstream
 --- !u!60 &8371626826336235142
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14513,6 +14625,8 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!212 &8424183747278768777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14760,6 +14874,7 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+<<<<<<< Updated upstream
 --- !u!60 &8446751325517011750
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -14917,6 +15032,8 @@ PolygonCollider2D:
       - {x: -0.17999999, y: 0.94}
       - {x: -0.17, y: 0.94}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!114 &8587636112567692639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15078,8 +15195,11 @@ MonoBehaviour:
   acceleration: 0.1
 --- !u!60 &8877135289422668334
 PolygonCollider2D:
+<<<<<<< Updated upstream
 --- !u!60 &8877135289422668334
 PolygonCollider2D:
+=======
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15129,6 +15249,7 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 7920366162718151252}
   m_Enabled: 1
   serializedVersion: 3
@@ -15174,6 +15295,8 @@ PolygonCollider2D:
       - {x: 2.195, y: -3.145}
       - {x: 2.195, y: 3.145}
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> Stashed changes
 --- !u!61 &8942255872389979456
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15322,7 +15445,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1744765342}
+<<<<<<< Updated upstream
   - {fileID: 1744765342}
+=======
+>>>>>>> Stashed changes
   - {fileID: 1995755048}
   - {fileID: 1641483580}
   - {fileID: 1360190783}
@@ -15332,4 +15458,8 @@ SceneRoots:
   - {fileID: 460796377}
   - {fileID: 6514009704226509786}
   - {fileID: 3454781955436219754}
+<<<<<<< Updated upstream
   - {fileID: 1466023130}
+=======
+  - {fileID: 1466023130}
+>>>>>>> Stashed changes
