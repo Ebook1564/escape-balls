@@ -1,65 +1,37 @@
 using UnityEngine;
-using System.Collections.Generic;
 
 [ExecuteAlways]
-public class CameraViewportManager : MonoBehaviour
+public class ScaleToCamera : MonoBehaviour
 {
-    [Tooltip("Assign the Base Camera here. If empty, will use Camera.main.")]
-    public Camera baseCamera;
+    [Tooltip("Assign the Camera whose viewport this object should match.")]
+    public Camera targetCamera;
 
-    [Tooltip("Any extra cameras (non-overlay) to also apply the viewport to.")]
-    public List<Camera> extraCameras = new List<Camera>();
-
-    [Header("Viewport Options")]
-    public bool useCustomArea = false;
-
-    [Tooltip("Custom viewport area (x,y,width,height). Normalized 0–1.")]
-    public Rect customViewport = new Rect(0.25f, 0.25f, 0.5f, 0.5f);
-
-    private Vector2 lastScreenSize;
-
-    void OnEnable()
+    void LateUpdate()
     {
-        if (baseCamera == null)
-            baseCamera = Camera.main;
+        if (targetCamera == null || !targetCamera.orthographic) return;
 
-        ApplyViewport();
-    }
+        // Step 1: Camera world size
+        float worldHeight = targetCamera.orthographicSize * 2f;
+        float worldWidth = worldHeight * targetCamera.aspect;
 
-    void Update()
-    {
-        // Detect screen/orientation change
-        if (Screen.width != (int)lastScreenSize.x || Screen.height != (int)lastScreenSize.y)
-        {
-            lastScreenSize = new Vector2(Screen.width, Screen.height);
-            ApplyViewport();
-        }
-    }
+        // Step 2: Get object's unscaled size
+        Renderer rend = GetComponentInChildren<Renderer>();
+        if (rend == null) return;
 
-    void ApplyViewport()
-    {
-        if (baseCamera == null)
-        {
-            Debug.LogWarning("No Base Camera assigned.");
-            return;
-        }
+        // Temporarily reset scale to 1 to get true base size
+        Vector3 originalScale = transform.localScale;
+        transform.localScale = Vector3.one;
+        Vector3 objSize = rend.bounds.size;
+        transform.localScale = originalScale;
 
-        Rect rect;
+        // Step 3: Compute scale factors
+        float scaleX = worldWidth / objSize.x;
+        float scaleY = worldHeight / objSize.y;
 
-        if (useCustomArea)
-            rect = customViewport; // Example: centered box
-        else
-            rect = new Rect(0f, 0f, 1f, 1f); // Fullscreen
+        // Step 4: Pick the smaller one to preserve aspect ratio
+        float finalScale = Mathf.Min(scaleX, scaleY);
 
-        // Apply to base camera
-        baseCamera.rect = rect;
-        Debug.Log($"Base Camera '{baseCamera.name}' viewport set to {rect}");
-
-        // Apply to extra cameras (non-overlay only)
-        foreach (Camera cam in extraCameras)
-        {
-            if (cam != null && cam != baseCamera)
-                cam.rect = rect;
-        }
+        // Step 5: Apply uniform scale
+        transform.localScale = new Vector3(finalScale, finalScale, 1f);
     }
 }

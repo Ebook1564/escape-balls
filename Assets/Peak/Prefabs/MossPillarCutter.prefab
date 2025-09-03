@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 6800610502160999770}
   - component: {fileID: 3871482070101871157}
   m_Layer: 0
-  m_Name: moss pillar cutter
+  m_Name: MossPillarCutter
   m_TagString: boomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
