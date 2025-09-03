@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2014389231369781788}
   - component: {fileID: 6174795889323801825}
   - component: {fileID: 7313450101082346364}
+  - component: {fileID: 6540325159260542128}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: boomb
@@ -265,6 +266,19 @@ MonoBehaviour:
   startAngle: 2
   currentAngle: 0
   angularVelocity: 0.1
+--- !u!114 &6540325159260542128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475499777313421709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 2475499777313421709}
 --- !u!1 &3021600186114293531
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,6 +290,7 @@ GameObject:
   - component: {fileID: 4722876237662359394}
   - component: {fileID: 657671903470616028}
   - component: {fileID: 3472120458723190651}
+  - component: {fileID: 1330651529442553188}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: boomb
@@ -547,6 +562,19 @@ PolygonCollider2D:
       - {x: 2.26, y: -1.15}
       - {x: 2.27, y: -1.04}
   m_UseDelaunayMesh: 0
+--- !u!114 &1330651529442553188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3021600186114293531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 3021600186114293531}
 --- !u!1 &5449446944755704290
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4209387756623503676}
   - component: {fileID: 6800610502160999770}
-  - component: {fileID: 1141212727912277192}
+  - component: {fileID: 3871482070101871157}
   m_Layer: 0
   m_Name: HangingSpike
   m_TagString: boomb
@@ -595,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstcle: {fileID: 5449446944755704290}
---- !u!114 &1141212727912277192
+--- !u!114 &3871482070101871157
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -608,5 +636,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialSpeed: 5
-  maxSpeed: 5
+  maxSpeed: 6
   acceleration: 0.1
