@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4032838493059456762}
   - component: {fileID: 6534359637228303786}
   - component: {fileID: 3754975557996705526}
+  - component: {fileID: 4587656085115376105}
   m_Layer: 0
   m_Name: moss_pillar
   m_TagString: Untagged
@@ -270,3 +271,18 @@ PolygonCollider2D:
       - {x: 0.099999994, y: -4.5899997}
       - {x: 0.39, y: -4.52}
   m_UseDelaunayMesh: 0
+--- !u!114 &4587656085115376105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5530471977747484911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753f5c1c6b8d65d4e85b9a286cd73775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 5
+  maxSpeed: 6
+  acceleration: 0.1
