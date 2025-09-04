@@ -210,9 +210,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pivotObstacle: {fileID: 7110786009530912132}
   swingingObstacle: {fileID: 7110786009530912132}
-  maxAngle: 45
+  maxAngle: 30
   acceleration: 1
-  startAngle: 30
+  startAngle: 15
   currentAngle: 0
   angularVelocity: 0.2
 --- !u!4 &7110786009530912132 stripped
