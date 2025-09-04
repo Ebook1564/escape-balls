@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bird_distroy : MonoBehaviour
+public class DestroyOnCollision : MonoBehaviour
 {
     public GameObject obstcle;
     private void Update()

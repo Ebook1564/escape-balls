@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3844917633904042676}
   - component: {fileID: 2014389231369781788}
-  - component: {fileID: 6540325159260542128}
   - component: {fileID: 6518205822893011630}
   - component: {fileID: 1237916191877144083}
-  - component: {fileID: 4077565271111240866}
+  - component: {fileID: 3910242957918153549}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: boomb
@@ -91,19 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6540325159260542128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2475499777313421709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstcle: {fileID: 2475499777313421709}
 --- !u!58 &6518205822893011630
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -154,7 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 6000
   moveFrequency: 0.3
---- !u!114 &4077565271111240866
+--- !u!114 &3910242957918153549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,12 +149,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2475499777313421709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 753f5c1c6b8d65d4e85b9a286cd73775, type: 3}
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSpeed: 5
-  maxSpeed: 5
-  acceleration: 0.1
+  obstcle: {fileID: 3021600186114293531}
 --- !u!1 &3021600186114293531
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,8 +163,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4722876237662359394}
   - component: {fileID: 657671903470616028}
-  - component: {fileID: 1330651529442553188}
   - component: {fileID: 4737520514039092928}
+  - component: {fileID: 7351860768062660503}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: boomb
@@ -258,19 +242,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1330651529442553188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3021600186114293531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstcle: {fileID: 3021600186114293531}
 --- !u!60 &4737520514039092928
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -446,6 +417,19 @@ PolygonCollider2D:
       - {x: 0.98999995, y: -4.48}
       - {x: 1.16, y: -4.37}
   m_UseDelaunayMesh: 0
+--- !u!114 &7351860768062660503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3021600186114293531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 3021600186114293531}
 --- !u!1 &5449446944755704290
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,8 +439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4209387756623503676}
-  - component: {fileID: 6800610502160999770}
-  - component: {fileID: 3871482070101871157}
+  - component: {fileID: 1157734542244944487}
   m_Layer: 0
   m_Name: MossPillarCutter
   m_TagString: boomb
@@ -481,7 +464,7 @@ Transform:
   - {fileID: 3844917633904042676}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6800610502160999770
+--- !u!114 &1157734542244944487
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -490,20 +473,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5449446944755704290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstcle: {fileID: 5449446944755704290}
---- !u!114 &3871482070101871157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5449446944755704290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 753f5c1c6b8d65d4e85b9a286cd73775, type: 3}
+  m_Script: {fileID: 11500000, guid: b025723a632de1840a81d65435d3cde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   initialSpeed: 5

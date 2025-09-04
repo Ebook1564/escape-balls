@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3844917633904042676}
   - component: {fileID: 2014389231369781788}
   - component: {fileID: 7313450101082346364}
-  - component: {fileID: 6540325159260542128}
   - component: {fileID: 315101252920567705}
+  - component: {fileID: 5545414124865620511}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: boomb
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2475499777313421709}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.26, y: -2.546, z: 0}
+  m_LocalPosition: {x: -1.4, y: -2.546, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -106,22 +106,9 @@ MonoBehaviour:
   swingingObstacle: {fileID: 3844917633904042676}
   maxAngle: 15
   acceleration: 0
-  startAngle: 2
+  startAngle: -3.25
   currentAngle: 0
   angularVelocity: 0.1
---- !u!114 &6540325159260542128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2475499777313421709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstcle: {fileID: 2475499777313421709}
 --- !u!60 &315101252920567705
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -678,6 +665,19 @@ PolygonCollider2D:
       - {x: -0.37, y: 7.04}
       - {x: -0.35999998, y: 7.04}
   m_UseDelaunayMesh: 0
+--- !u!114 &5545414124865620511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475499777313421709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 2475499777313421709}
 --- !u!1 &3021600186114293531
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 4722876237662359394}
   - component: {fileID: 657671903470616028}
   - component: {fileID: 3472120458723190651}
-  - component: {fileID: 1330651529442553188}
+  - component: {fileID: 4924034602538380387}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: boomb
@@ -961,7 +961,7 @@ PolygonCollider2D:
       - {x: 2.26, y: -1.15}
       - {x: 2.27, y: -1.04}
   m_UseDelaunayMesh: 0
---- !u!114 &1330651529442553188
+--- !u!114 &4924034602538380387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -970,7 +970,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3021600186114293531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   obstcle: {fileID: 3021600186114293531}
@@ -985,8 +985,8 @@ GameObject:
   - component: {fileID: 2768235558018331698}
   - component: {fileID: 5697162104986611280}
   - component: {fileID: 6287246923074606293}
-  - component: {fileID: 707580272763542866}
   - component: {fileID: 2954916111264737844}
+  - component: {fileID: 3567431610063483561}
   m_Layer: 0
   m_Name: GameObject (2)
   m_TagString: boomb
@@ -1003,7 +1003,7 @@ Transform:
   m_GameObject: {fileID: 4469376632393875179}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.15, y: -2.546, z: 0}
+  m_LocalPosition: {x: 1.4, y: -2.546, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1083,19 +1083,6 @@ MonoBehaviour:
   startAngle: 2
   currentAngle: 0
   angularVelocity: 0.1
---- !u!114 &707580272763542866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4469376632393875179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obstcle: {fileID: 4469376632393875179}
 --- !u!60 &2954916111264737844
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1652,6 +1639,19 @@ PolygonCollider2D:
       - {x: -0.37, y: 7.04}
       - {x: -0.35999998, y: 7.04}
   m_UseDelaunayMesh: 0
+--- !u!114 &3567431610063483561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4469376632393875179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 4469376632393875179}
 --- !u!1 &5449446944755704290
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,8 +1661,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4209387756623503676}
-  - component: {fileID: 6800610502160999770}
-  - component: {fileID: 3871482070101871157}
+  - component: {fileID: 1217529365067023081}
   m_Layer: 0
   m_Name: EscapeBalls
   m_TagString: boomb
@@ -1688,7 +1687,7 @@ Transform:
   - {fileID: 2768235558018331698}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6800610502160999770
+--- !u!114 &1217529365067023081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1697,22 +1696,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5449446944755704290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db6d20607b47fe4f86d1cd115976a2e, type: 3}
+  m_Script: {fileID: 11500000, guid: b025723a632de1840a81d65435d3cde9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstcle: {fileID: 5449446944755704290}
---- !u!114 &3871482070101871157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5449446944755704290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 753f5c1c6b8d65d4e85b9a286cd73775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialSpeed: 5
-  maxSpeed: 6
+  initialSpeed: 3
+  maxSpeed: 3
   acceleration: 0.1

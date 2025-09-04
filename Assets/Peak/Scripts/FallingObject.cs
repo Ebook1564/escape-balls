@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FallingObject : MonoBehaviour
 {
-    public float initialSpeed = 5f;  // Initial falling speed
-    public float maxSpeed = 6f;     // Maximum speed
+    public float initialSpeed = 3f;  // Initial falling speed
+    public float maxSpeed = 3f;     // Maximum speed
     public float acceleration = 0.1f;  // How quickly the speed increases
 
     private float currentSpeed;      // The current speed of the object
