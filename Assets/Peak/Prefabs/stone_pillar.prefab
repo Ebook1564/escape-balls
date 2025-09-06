@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 203217129332609688}
   - component: {fileID: 9082811509466536979}
   - component: {fileID: 7857771918166826662}
+  - component: {fileID: 890315899567584831}
+  - component: {fileID: 4681285134111273973}
   m_Layer: 0
   m_Name: stone_pillar
-  m_TagString: Untagged
+  m_TagString: boomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.58, y: 120, z: 0}
-  m_LocalScale: {x: 1.24, y: 1.24, z: 1.24}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,3 +220,31 @@ PolygonCollider2D:
       - {x: 0.685, y: -2.155}
       - {x: 0.73499995, y: -2.105}
   m_UseDelaunayMesh: 0
+--- !u!114 &890315899567584831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651374769707187096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b025723a632de1840a81d65435d3cde9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialSpeed: 3
+  maxSpeed: 3
+  acceleration: 0.1
+--- !u!114 &4681285134111273973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2651374769707187096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0209ed49deefd47b0b5c662dc530f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstcle: {fileID: 2651374769707187096}
